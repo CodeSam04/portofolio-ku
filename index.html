@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans flex flex-col min-h-screen">
+    
+    <nav class="bg-white shadow-md p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a class="text-2xl font-bold text-blue-600" href="#">Portofolio.</a>
+            <ul class="flex space-x-6 text-sm font-medium text-gray-600">
+                <li><a href="#about" class="hover:text-blue-600 transition">Tentang</a></li>
+                <li><a href="#projects" class="hover:text-blue-600 transition">Proyek</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="container mx-auto mt-16 text-center px-4 flex-grow">
+        <h1 class="text-5xl font-extrabold mb-4 text-gray-900">Halo, Selamat Datang! 👋</h1>
+        <p class="text-xl text-gray-500 mb-8 max-w-2xl mx-auto">
+            Ini adalah template website sederhana yang dirancang agar ringan, responsif, dan siap untuk langsung di-deploy ke GitHub.
+        </p>
+        <a href="#projects" class="bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition shadow-lg">
+            Lihat Proyek Saya
+        </a>
+    </header>
+
+    <main class="container mx-auto mt-20 mb-16 px-4">
+        <section id="about" class="bg-white rounded-xl shadow-sm border border-gray-100 p-8 mb-10 max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-4 text-gray-800">Tentang Proyek Ini</h2>
+            <p class="text-gray-600 leading-relaxed">
+                Website ini dibangun hanya menggunakan HTML murni yang dikombinasikan dengan *utility classes* untuk mempercepat proses *styling*. Struktur satu halaman (Single Page) seperti ini sangat ideal untuk dipublikasikan secara instan melalui sistem *static hosting*.
+            </p>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t py-6 mt-auto">
+        <div class="container mx-auto text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Website Sederhana. Di-deploy via GitHub Pages.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
