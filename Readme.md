@@ -8,7 +8,7 @@ A lightweight, responsive, and modern **single-page portfolio website** built wi
 
 🔗 Visit the live website here:
 
-**[https://username.github.io/repository-name/](https://samueljanringsitio.github.io/portofolio-ku/)**
+**https://codesam04.github.io/portofolio-ku/**
 
 > Replace the URL above with your GitHub Pages link.
 
